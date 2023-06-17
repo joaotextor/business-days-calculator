@@ -1,4 +1,4 @@
-import showToast from "./showToast.js"
+import { default as showToast } from "./showToast.js"
 
 const $toast = document.querySelector(".toast")
 
