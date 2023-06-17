@@ -18,23 +18,23 @@
                 <div class="tooltip">Feriados conforme <a href="https://www.trf4.jus.br/trf4/controlador.php?acao=%20calendario_feriados_listar&%20selOrgao=%202" target="_blank">calendário oficial do TRF4</a> e Subseção de Erechim</div>
             </div>
         </div>
-        <div class="form-div">
-            <form name="form">
+        <main class="form-div">
+            <form name="form" role="main">
                 <div>
                     <label for="startDate">Data inicial</label>
-                    <input type="date" id="startDate">
+                    <input type="date" id="startDate" tabindex="1">
                 </div>
                 <div>
                     <label for="daysToAdd">Dias</label>
-                    <input type="text" id="daysToAdd"">
+                    <input type="text" id="daysToAdd" tabindex="2">
                 </div>
-                <input class="btn-submit" type="submit" value="Calcular">
+                <input class="btn-submit" type="submit" value="Calcular" role="submit" tabindex="3">
             </form>
             <div class="result">
                 <span>Data Final:</span>
                 <span id="finalDate"></span>
             </div>
-        </div>
+        </main>
         <div class="toast">
             <span></span>
         </div>
