@@ -21,6 +21,8 @@ function handleFormSubmit(e) {
     let newDate = addDays(oldDate, daysToAdd)
 
     $finalDate.innerText = newDate
+    $initialDate.value = "";
+    $daysToAdd.value = "";
 
     showToast($toast, "Data copiada. Use Ctrl+V para colar.", "success", 5000)
 }
