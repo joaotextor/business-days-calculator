@@ -62,7 +62,7 @@ footer a:any-link {
     background-color: rgb(0, 85, 128, 0.6);
     color: antiquewhite;
     top: -60px;
-    left: 16px;
+    left: 22px;
     width: 140px;
     transition: opacity 500ms ease-in 0ms;
 }
@@ -73,6 +73,7 @@ footer a:any-link {
 }
 
 .tooltip a:any-link {
+    font-weight: bold;
     color: black;
 }
 
