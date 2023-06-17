@@ -18,6 +18,19 @@ form {
     text-align: center;
 }
 
+footer {
+    color: #005580;
+    position: absolute;
+    bottom: .5rem;
+    font-size: 1.6rem;
+}
+
+footer a:any-link {
+    color: #005580;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .container {
     background-color: antiquewhite;
     height: 100vh;
@@ -114,6 +127,12 @@ form {
 @media (max-width: 500px) {
     .toast {
         bottom: 12rem;
+    }
+}
+
+@media (max-height: 800px) {
+    .toast {
+        bottom: 10rem;
     }
 }
 
