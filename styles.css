@@ -161,7 +161,21 @@ footer a:any-link {
     transition: opacity 600ms ease-in-out 100ms;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
+    .icon-div .tooltip {
+        z-index: -1000;
+        opacity: 0;
+        font-size: 1.5rem;
+        position: absolute;
+        padding: .5rem;
+        border-radius: 5px;
+        background-color: rgb(0, 85, 128, 0.6);
+        color: antiquewhite;
+        top: -80px;
+        left: -140px;
+        width: 140px;
+        transition: opacity 500ms ease-in 0ms;
+    }
     .toast {
         bottom: 12rem;
     }
