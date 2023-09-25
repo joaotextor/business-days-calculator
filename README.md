@@ -1,6 +1,6 @@
 # Business days calculator
 
-Simple project written in pure HTML/CSS/JS, created as an internal tool to calculate business days in the scope of the Brazilian Federal Justice, considering the national, state and municipal holidays according to the oficial [Regional Federal Court's calendar](https://www.trf4.jus.br/trf4/controlador.php?acao=%20calendario_feriados_listar&%20selOrgao=%202).
+Simple project written in pure HTML/CSS/JS, created as an internal tool to calculate business days in the scope of the Brazilian Federal Justice, considering the national, state and municipal holidays according to the official [Regional Federal Court's calendar](https://www.trf4.jus.br/trf4/controlador.php?acao=%20calendario_feriados_listar&%20selOrgao=%202).
 
 Access the tool: [https://joaotextor.com/diasuteis](https://joaotextor.com/diasuteis)
 
