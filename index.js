@@ -42,6 +42,7 @@ function handleFormSubmit(e) {
   if (!validateInput($initialDate, $daysToAdd)) return 0;
   let newDate = addDays(oldDate, daysToAdd, $secao.value, $subsecao.value);
 
+  $finalDate.parentElement.classList.add("visible");
   $finalDate.innerText = newDate;
 
   showToast($toast, "Data copiada. Use Ctrl+V para colar.", "success", 5000);
