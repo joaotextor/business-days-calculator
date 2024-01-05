@@ -10,21 +10,31 @@ const $finalDate = document.getElementById("finalDate");
 const $toast = document.querySelector(".toast");
 const $secao = document.getElementById("select-uf");
 const $subsecao = document.getElementById("select-city");
+let secao = $secao.value;
 
-document.addEventListener("DOMContentLoaded", loadCities);
+document.addEventListener("DOMContentLoaded", loadCities(secao));
 
 $form.addEventListener("submit", handleFormSubmit);
+$secao.addEventListener("change", (e) => {
+  secao = $secao.value;
+  loadCities(secao);
+});
 
-const secao = $secao.value;
-
-function loadCities() {
+function loadCities(uf = secao.value) {
   console.log("started loading cities");
-  for (const city in holidays[secao].cities) {
-    const cityName = holidays[secao].cities[city].name;
+  removeAllOptions($subsecao);
+  for (const city in holidays[uf].cities) {
+    const cityName = holidays[uf].cities[city].name;
     const option = document.createElement("option");
     option.text = cityName;
     option.value = city;
     $subsecao.appendChild(option);
+  }
+}
+
+function removeAllOptions(selectBox) {
+  while (selectBox.options.length > 0) {
+    selectBox.remove(0);
   }
 }
 
@@ -40,7 +50,7 @@ function handleFormSubmit(e) {
   }
 
   if (!validateInput($initialDate, $daysToAdd)) return 0;
-  let newDate = addDays(oldDate, daysToAdd, $secao.value, $subsecao.value);
+  let newDate = addDays(oldDate, daysToAdd, secao, $subsecao.value);
 
   $finalDate.parentElement.classList.add("visible");
   $finalDate.innerText = newDate;
