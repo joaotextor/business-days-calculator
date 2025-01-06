@@ -1,4 +1,6 @@
-const CURRENT_YEAR = "2024";
+const CURRENT_YEAR = "2025";
+const CORPUS_CHRISTI = `19/06/${CURRENT_YEAR}`;
+const ASCENCAO_SENHOR = `29/05/${CURRENT_YEAR}`;
 
 const holidays = {
   national: [
@@ -22,11 +24,11 @@ const holidays = {
     `18/01/${CURRENT_YEAR}`,
     `19/01/${CURRENT_YEAR}`,
     `20/01/${CURRENT_YEAR}`,
-    `12/02/${CURRENT_YEAR}`,
-    `13/02/${CURRENT_YEAR}`,
-    `27/03/${CURRENT_YEAR}`,
-    `28/03/${CURRENT_YEAR}`,
-    `29/03/${CURRENT_YEAR}`,
+    `03/03/${CURRENT_YEAR}`,
+    `04/03/${CURRENT_YEAR}`,
+    `16/04/${CURRENT_YEAR}`,
+    `17/04/${CURRENT_YEAR}`,
+    `18/04/${CURRENT_YEAR}`,
     `21/04/${CURRENT_YEAR}`,
     `01/05/${CURRENT_YEAR}`,
     `11/08/${CURRENT_YEAR}`,
@@ -35,6 +37,8 @@ const holidays = {
     `28/10/${CURRENT_YEAR}`,
     `01/11/${CURRENT_YEAR}`,
     `02/11/${CURRENT_YEAR}`,
+    `15/11/${CURRENT_YEAR}`,
+    `20/11/${CURRENT_YEAR}`,
     `08/12/${CURRENT_YEAR}`,
     `20/12/${CURRENT_YEAR}`,
     `21/12/${CURRENT_YEAR}`,
@@ -74,97 +78,93 @@ const holidays = {
     cities: {
       alegrete: {
         name: `Alegrete`,
-        holidays: [`30/05/${CURRENT_YEAR}`, `08/12/${CURRENT_YEAR}`],
+        holidays: [`${CORPUS_CHRISTI}`, `08/12/${CURRENT_YEAR}`],
       },
       bage: {
         name: `Bagé`,
         holidays: [
           `20/01/${CURRENT_YEAR}`,
           `24/05/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
         ],
       },
       bentoGoncalves: {
         name: `Bento Gonçalves`,
-        holidays: [`30/05/${CURRENT_YEAR}`, `13/06/${CURRENT_YEAR}`],
+        holidays: [`${CORPUS_CHRISTI}`, `13/06/${CURRENT_YEAR}`],
       },
       cachoeiraDoSul: {
         name: `Cachoeira do Sul`,
-        holidays: [`30/05/${CURRENT_YEAR}`, `08/12/${CURRENT_YEAR}`],
+        holidays: [`${CORPUS_CHRISTI}`, `08/12/${CURRENT_YEAR}`],
       },
       camaqua: {
         name: `Camaquã`,
         holidays: [
           `02/02/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `24/06/${CURRENT_YEAR}`,
         ],
       },
       canela: {
         name: `Canela`,
         holidays: [
-          `09/05/${CURRENT_YEAR}`,
+          `${ASCENCAO_SENHOR}`,
           `26/05/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
         ],
       },
       canoas: {
         name: `Canoas`,
-        holidays: [`02/02/${CURRENT_YEAR}`, `30/05/${CURRENT_YEAR}`],
+        holidays: [`02/02/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       capaoDaCanoa: {
         name: `Capão da Canoa`,
         holidays: [
           `11/02/${CURRENT_YEAR}`,
           `12/04/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
         ],
       },
       carazinho: {
         name: `Carazinho`,
-        holidays: [`24/01/${CURRENT_YEAR}`, `30/05/${CURRENT_YEAR}`],
+        holidays: [`24/01/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       caxiasDoSul: {
         name: `Caxias do Sul`,
-        holidays: [`26/05/${CURRENT_YEAR}`, `30/05/${CURRENT_YEAR}`],
+        holidays: [`26/05/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       cruzAlta: {
         name: `Cruz Alta`,
-        holidays: [`30/05/${CURRENT_YEAR}`, `18/08/${CURRENT_YEAR}`],
+        holidays: [`${CORPUS_CHRISTI}`, `18/08/${CURRENT_YEAR}`],
       },
       erechim: {
         name: `Erechim`,
-        holidays: [`19/03/${CURRENT_YEAR}`, `30/05/${CURRENT_YEAR}`],
+        holidays: [`19/03/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       fredericoWestphalen: {
         name: `Frederico Westphalen`,
         holidays: [
           `28/02/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `13/06/${CURRENT_YEAR}`,
         ],
       },
       gramado: {
         name: `Gramado`,
-        holidays: [
-          `09/05/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
-          `29/06/${CURRENT_YEAR}`,
-        ],
+        holidays: [`${ASCENCAO_SENHOR}`, `${CORPUS_CHRISTI}`],
       },
       gravatai: {
         name: `Gravataí`,
-        holidays: [`30/05/${CURRENT_YEAR}`, `02/08/${CURRENT_YEAR}`],
+        holidays: [`${CORPUS_CHRISTI}`, `02/08/${CURRENT_YEAR}`],
       },
       ijui: {
         name: `Ijuí`,
-        holidays: [`30/05/${CURRENT_YEAR}`, `19/10/${CURRENT_YEAR}`],
+        holidays: [`${CORPUS_CHRISTI}`, `19/10/${CURRENT_YEAR}`],
       },
       itaqui: {
         name: `Itaquí`,
         holidays: [
           `17/03/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `06/12/${CURRENT_YEAR}`,
         ],
       },
@@ -172,95 +172,91 @@ const holidays = {
         name: `Jaguarão`,
         holidays: [
           `02/02/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `23/11/${CURRENT_YEAR}`,
         ],
       },
       lajeado: {
         name: `Lajeado`,
-        holidays: [`30/05/${CURRENT_YEAR}`, `31/10/${CURRENT_YEAR}`],
+        holidays: [`${CORPUS_CHRISTI}`, `31/10/${CURRENT_YEAR}`],
       },
       montenegro: {
         name: `Montenegro`,
         holidays: [
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `24/06/${CURRENT_YEAR}`,
           `31/10/${CURRENT_YEAR}`,
         ],
       },
       novaPrata: {
         name: `Nova Prata`,
-        holidays: [`30/05/${CURRENT_YEAR}`, `24/06/${CURRENT_YEAR}`],
+        holidays: [`${CORPUS_CHRISTI}`, `24/06/${CURRENT_YEAR}`],
       },
       novoHamburgo: {
         name: `Novo Hamburgo`,
         holidays: [
           `05/04/${CURRENT_YEAR}`,
-          `09/05/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${ASCENCAO_SENHOR}`,
+          `${CORPUS_CHRISTI}`,
         ],
       },
       palmeiraDasMissoes: {
         name: `Palmeira das Missões`,
         holidays: [
           `06/05/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `13/06/${CURRENT_YEAR}`,
         ],
       },
       passoFundo: {
         name: `Passo Fundo`,
-        holidays: [`30/05/${CURRENT_YEAR}`, `08/12/${CURRENT_YEAR}`],
+        holidays: [`${CORPUS_CHRISTI}`, `08/12/${CURRENT_YEAR}`],
       },
       pelotas: {
         name: `Pelotas`,
-        holidays: [`02/02/${CURRENT_YEAR}`, `30/05/${CURRENT_YEAR}`],
+        holidays: [`02/02/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       portoAlegre: {
         name: `Porto Alegre`,
-        holidays: [`02/02/${CURRENT_YEAR}`, `30/05/${CURRENT_YEAR}`],
+        holidays: [`02/02/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       rioGrande: {
         name: `Rio Grande`,
         holidays: [
           `02/02/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `29/06/${CURRENT_YEAR}`,
         ],
       },
       staCruzDoSul: {
         name: `Santa Cruz do Sul`,
-        holidays: [`30/05/${CURRENT_YEAR}`, `25/07/${CURRENT_YEAR}`],
+        holidays: [`${CORPUS_CHRISTI}`, `25/07/${CURRENT_YEAR}`],
       },
       staMaria: {
         name: `Santa Maria`,
         holidays: [
           `17/05/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `08/12/${CURRENT_YEAR}`,
         ],
       },
       staRosa: {
         name: `Santa Rosa`,
         holidays: [
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `10/08/${CURRENT_YEAR}`,
           `31/10/${CURRENT_YEAR}`,
         ],
       },
       staVitoriaDoPalmar: {
         name: `Santa Vitória do Palmar`,
-        holidays: [
-          `02/02/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
-          `19/12/${CURRENT_YEAR}`,
-        ],
+        holidays: [`02/02/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       santAnaDoLivramento: {
         name: `Santana do Livramento`,
         holidays: [
           `02/02/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `30/07/${CURRENT_YEAR}`,
         ],
       },
@@ -268,22 +264,22 @@ const holidays = {
         name: `Santiago`,
         holidays: [
           `04/01/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `08/12/${CURRENT_YEAR}`,
         ],
       },
       stoAngelo: {
         name: `Santo Ângelo`,
-        holidays: [`22/03/${CURRENT_YEAR}`, `30/05/${CURRENT_YEAR}`],
+        holidays: [`22/05/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       saoBorja: {
         name: `São Borja`,
-        holidays: [`21/05/${CURRENT_YEAR}`, `10/10/${CURRENT_YEAR}`],
+        holidays: [`10/10/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       saoJeronimo: {
         name: `São Jerônimo`,
         holidays: [
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `30/09/${CURRENT_YEAR}`,
           `08/12/${CURRENT_YEAR}`,
         ],
@@ -291,32 +287,32 @@ const holidays = {
       saoLeopoldo: {
         name: `São Leopoldo`,
         holidays: [
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `25/07/${CURRENT_YEAR}`,
           `08/12/${CURRENT_YEAR}`,
         ],
       },
       saoLuizGonzaga: {
         name: `São Luiz Gonzaga`,
-        holidays: [`30/05/${CURRENT_YEAR}`, `03/06/${CURRENT_YEAR}`],
+        holidays: [`${CORPUS_CHRISTI}`, `03/06/${CURRENT_YEAR}`],
       },
       torres: {
         name: `Torres`,
         holidays: [
           `02/02/${CURRENT_YEAR}`,
           `21/05/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `08/08/${CURRENT_YEAR}`,
         ],
       },
       uruguaiana: {
         name: `Uruguaiana`,
-        holidays: [`30/05/${CURRENT_YEAR}`, `26/07/${CURRENT_YEAR}`],
+        holidays: [`${CORPUS_CHRISTI}`, `26/07/${CURRENT_YEAR}`],
       },
       vacaria: {
         name: `Vacaria`,
         holidays: [
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `22/10/${CURRENT_YEAR}`,
           `08/12/${CURRENT_YEAR}`,
         ],
@@ -328,15 +324,15 @@ const holidays = {
     cities: {
       blumenau: {
         name: `Blumenau`,
-        holidays: [`30/05/${CURRENT_YEAR}`, `02/09/${CURRENT_YEAR}`],
+        holidays: [`${CORPUS_CHRISTI}`, `02/09/${CURRENT_YEAR}`],
       },
       cacador: {
         name: `Caçador`,
-        holidays: [`25/03/${CURRENT_YEAR}`],
+        holidays: [`25/03/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       chapeco: {
         name: `Chapecó`,
-        holidays: [`08/06/${CURRENT_YEAR}`, `25/08/${CURRENT_YEAR}`],
+        holidays: [`25/08/${CURRENT_YEAR}`],
       },
       concordia: {
         name: `Concórdia`,
@@ -344,45 +340,45 @@ const holidays = {
       },
       florianopolis: {
         name: `Florianópolis`,
-        holidays: [`23/03/${CURRENT_YEAR}`, `30/05/${CURRENT_YEAR}`],
+        holidays: [`23/03/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       itajai: {
         name: `Itajaí`,
-        holidays: [`30/05/${CURRENT_YEAR}`, `15/06/${CURRENT_YEAR}`],
+        holidays: [`${CORPUS_CHRISTI}`, `15/06/${CURRENT_YEAR}`],
       },
       joinville: {
         name: `Joinville`,
-        holidays: [`09/03/${CURRENT_YEAR}`, `30/05/${CURRENT_YEAR}`],
+        holidays: [`09/03/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       joacaba: {
         name: `Joaçaba`,
-        holidays: [`30/05/${CURRENT_YEAR}`, `25/08/${CURRENT_YEAR}`],
+        holidays: [`${CORPUS_CHRISTI}`, `25/08/${CURRENT_YEAR}`],
       },
       laguna: {
         name: `Laguna`,
         holidays: [
           `02/02/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `13/06/${CURRENT_YEAR}`,
         ],
       },
       mafra: {
         name: `Mafra`,
-        holidays: [`08/09/${CURRENT_YEAR}`],
+        holidays: [`08/09/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       rioDoSul: {
         name: `Rio do Sul`,
-        holidays: [`15/04/${CURRENT_YEAR}`],
+        holidays: [`15/04/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       saoBentoDoSul: {
         name: `São Bento do Sul`,
-        holidays: [`23/09/${CURRENT_YEAR}`],
+        holidays: [`23/09/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       saoFranciscoDoSul: {
         name: `São Francisco do Sul`,
         holidays: [
           `15/04/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `08/09/${CURRENT_YEAR}`,
         ],
       },
@@ -390,17 +386,13 @@ const holidays = {
         name: `São Miguel do Oeste`,
         holidays: [
           `15/02/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `29/09/${CURRENT_YEAR}`,
         ],
       },
       videira: {
         name: `Videira`,
-        holidays: [
-          `01/03/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
-          `08/12/${CURRENT_YEAR}`,
-        ],
+        holidays: [`${CORPUS_CHRISTI}`, `08/12/${CURRENT_YEAR}`],
       },
     },
   },
@@ -409,23 +401,31 @@ const holidays = {
     cities: {
       apucarana: {
         name: `Apucarana`,
-        holidays: [`28/01/${CURRENT_YEAR}`, `11/02/${CURRENT_YEAR}`],
+        holidays: [
+          `28/01/${CURRENT_YEAR}`,
+          `11/02/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
+        ],
       },
       arapongas: {
         name: `Arapongas`,
-        holidays: [`10/10/${CURRENT_YEAR}`],
+        holidays: [`10/10/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       astorga: {
         name: `Astorga`,
-        holidays: [`02/01/${CURRENT_YEAR}`, `20/01/${CURRENT_YEAR}`],
+        holidays: [
+          `02/01/${CURRENT_YEAR}`,
+          `20/01/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
+        ],
       },
       campoMourao: {
         name: `Campo Mourão`,
-        holidays: [`19/03/${CURRENT_YEAR}`, `14/10/${CURRENT_YEAR}`],
+        holidays: [`19/03/${CURRENT_YEAR}`, `13/10/${CURRENT_YEAR}`],
       },
       cascavel: {
         name: `Cascavel`,
-        holidays: [`14/11/${CURRENT_YEAR}`],
+        holidays: [`14/11/${CURRENT_YEAR}`, `${CORPUS_CHRISTI}`],
       },
       curitiba: {
         name: `Curitiba`,
@@ -433,11 +433,19 @@ const holidays = {
       },
       fozDoIguacu: {
         name: `Foz do Iguaçu`,
-        holidays: [`10/06/${CURRENT_YEAR}`, `24/06/${CURRENT_YEAR}`],
+        holidays: [
+          `10/06/${CURRENT_YEAR}`,
+          `24/06/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
+        ],
       },
       franciscoBeltrao: {
         name: `Francisco Beltrão`,
-        holidays: [`15/08/${CURRENT_YEAR}`, `14/11/${CURRENT_YEAR}`],
+        holidays: [
+          `15/08/${CURRENT_YEAR}`,
+          `14/11/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
+        ],
       },
       guaira: {
         name: `Guaíra`,
@@ -449,35 +457,59 @@ const holidays = {
       },
       guarapuava: {
         name: `Guarapuava`,
-        holidays: [`02/02/${CURRENT_YEAR}`, `09/12/${CURRENT_YEAR}`],
+        holidays: [
+          `02/02/${CURRENT_YEAR}`,
+          `09/12/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
+        ],
       },
       ibaiti: {
         name: `Ibaiti`,
         holidays: [
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `16/06/${CURRENT_YEAR}`,
           `09/11/${CURRENT_YEAR}`,
         ],
       },
       ivaipora: {
         name: `Ivaiporã`,
-        holidays: [`06/08/${CURRENT_YEAR}`, `19/11/${CURRENT_YEAR}`],
+        holidays: [
+          `06/08/${CURRENT_YEAR}`,
+          `19/11/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
+        ],
       },
       jacarezinho: {
         name: `Jacarezinho`,
-        holidays: [`20/01/${CURRENT_YEAR}`, `02/04/${CURRENT_YEAR}`],
+        holidays: [
+          `20/01/${CURRENT_YEAR}`,
+          `02/04/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
+        ],
       },
       londrina: {
         name: `Londrina`,
-        holidays: [`07/06/${CURRENT_YEAR}`, `10/12/${CURRENT_YEAR}`],
+        holidays: [
+          `10/12/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
+          `27/06/${CURRENT_YEAR}`,
+        ],
       },
       maringa: {
         name: `Maringá`,
-        holidays: [`13/05/${CURRENT_YEAR}`, `15/08/${CURRENT_YEAR}`],
+        holidays: [
+          `12/05/${CURRENT_YEAR}`,
+          `15/08/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
+        ],
       },
       paranagua: {
         name: `Paranaguá`,
-        holidays: [`29/07/${CURRENT_YEAR}`, `07/10/${CURRENT_YEAR}`],
+        holidays: [
+          `29/07/${CURRENT_YEAR}`,
+          `07/10/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
+        ],
       },
       paranavai: {
         name: `Paranavaí`,
@@ -485,11 +517,19 @@ const holidays = {
       },
       patoBranco: {
         name: `Pato Branco`,
-        holidays: [`29/06/${CURRENT_YEAR}`, `14/12/${CURRENT_YEAR}`],
+        holidays: [
+          `29/06/${CURRENT_YEAR}`,
+          `14/12/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
+        ],
       },
       pitanga: {
         name: `Pitanga`,
-        holidays: [`28/01/${CURRENT_YEAR}`, `26/07/${CURRENT_YEAR}`],
+        holidays: [
+          `28/01/${CURRENT_YEAR}`,
+          `26/07/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
+        ],
       },
       pontaGrossa: {
         name: `Ponta Grossa`,
@@ -499,7 +539,7 @@ const holidays = {
         name: `São Francisco do Sul`,
         holidays: [
           `15/04/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `08/09/${CURRENT_YEAR}`,
         ],
       },
@@ -508,7 +548,7 @@ const holidays = {
         holidays: [
           `01/03/${CURRENT_YEAR}`,
           `21/03/${CURRENT_YEAR}`,
-          `30/05/${CURRENT_YEAR}`,
+          `${CORPUS_CHRISTI}`,
           `27/06/${CURRENT_YEAR}`,
         ],
       },
@@ -526,7 +566,7 @@ const holidays = {
       },
       uniaoDaVitoria: {
         name: `União da Vitória`,
-        holidays: [`27/03/${CURRENT_YEAR}`, `07/06/${CURRENT_YEAR}`],
+        holidays: [`27/03/${CURRENT_YEAR}`, `27/06/${CURRENT_YEAR}`],
       },
       wenceslauBraz: {
         name: `Wenceslau Braz`,
