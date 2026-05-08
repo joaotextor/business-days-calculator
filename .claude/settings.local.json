@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --check d:/Coding/business-days-calculator/holidays.js)"
+    ]
+  }
+}
